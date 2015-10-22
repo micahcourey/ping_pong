@@ -2,4 +2,4 @@ name = Ping-Pong
 description = the user enters a number into a form. When they submit the form it will print out all the numbers from 1 to the number they entered with numbers divisible by 3 replaced by "ping", numbers divisible by 5 replaced by "pong" and numbers divisible by both replaced by "ping-pong".
 package = Micah's Modules
 core = 7.x
-files[] = info.module
+files[] = ping_pong.module

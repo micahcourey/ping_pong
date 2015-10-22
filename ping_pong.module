@@ -22,7 +22,9 @@ function ping_pong_form() {
     $form['count_goal'] = array(
         '#title' => 'Count Goal',
         '#type' => 'textfield',
-        '#description' => t("Enter a number")
+        '#description' => t("Enter a number"),
+        '#element_validate' => array('element_validate_integer_positive'),
+        '#required' => TRUE,
     );
 
     $form['submit'] = array(
